@@ -1,0 +1,41 @@
+.post-enter {
+    opacity: 0;
+}
+
+.post-enter-active {
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.post-exit {
+    opacity: 1;
+}
+
+.post-exit-active {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.pagination__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.page--active {
+    background-color: teal;
+    color: white;
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.navbar__links a {
+    margin-left: 10px;
+}
